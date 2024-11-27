@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<style>
+   
+.emailForm{
+        display: flex;
+        flex-direction: column;
+}
+
+.form{
+    display: flex;
+   flex-direction: column;
+}
+#button{
+    display: flex;
+   flex-direction: column;
+   
+}
+</style>
+<body>
+    <h1>Cadastro:</h1>
+    <div id="cadastro">
+        <form id="emailForm" class="emailForm">
+            <div class="form">
+
+                <label type="email" for="text" id="text" >Email:</label>
+                <input type="email" id="text" placeholder="Digite seu Email ...">
+                <br>
+                <label type="text" for="text" >Usuario:</label>
+                <input  type="text" id="text" placeholder="Digite seu Usuario ...">
+                <br>
+                <label type="password" for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha ...">
+                <br>
+                <label type="password" for="password">Repita a senha:</label>
+                <input type="password" id="password" placeholder="Repita sua senha ...">
+            </div>
+        </form>
+        <div id="button">
+            <button>Enviar</button>
+        </div>
+    </div>
+</body>
+</html>

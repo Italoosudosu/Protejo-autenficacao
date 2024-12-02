@@ -1,8 +1,10 @@
+from flask import render_template, request, redirect
 from main import app
-from flask import render_template
+
 @app.route("/")
 def homepage():
     return render_template ("main.html")
+
 
 @app.route("/login")
 def login():
